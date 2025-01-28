@@ -8,6 +8,6 @@ public class Movement : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(Vector3.forward * (Time.deltaTime * _speed));        
+        transform.Translate(transform.forward * (Time.deltaTime * -_speed));
     }
 }

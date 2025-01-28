@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Increase : MonoBehaviour
+public class Scale : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
